@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D8915C441DB6935C001C5BD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8915C431DB6935C001C5BD7 /* AppDelegate.swift */; };
-		D8915C461DB6935C001C5BD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8915C451DB6935C001C5BD7 /* ViewController.swift */; };
 		D8915C491DB6935C001C5BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8915C471DB6935C001C5BD7 /* Main.storyboard */; };
 		D8915C4B1DB6935C001C5BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8915C4A1DB6935C001C5BD7 /* Assets.xcassets */; };
 		D8915C4E1DB6935C001C5BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8915C4C1DB6935C001C5BD7 /* LaunchScreen.storyboard */; };
+		D8915C561DB69C4E001C5BD7 /* PokemonSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8915C551DB69C4E001C5BD7 /* PokemonSearchViewController.swift */; };
+		D8915C581DB69EE2001C5BD7 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8915C571DB69EE2001C5BD7 /* NetworkController.swift */; };
+		D8915C5A1DB6A0B5001C5BD7 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8915C591DB6A0B5001C5BD7 /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D8915C401DB6935C001C5BD7 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8915C431DB6935C001C5BD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8915C451DB6935C001C5BD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8915C481DB6935C001C5BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8915C4A1DB6935C001C5BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8915C4D1DB6935C001C5BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8915C4F1DB6935C001C5BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8915C551DB69C4E001C5BD7 /* PokemonSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokemonSearchViewController.swift; path = ../PokemonSearchViewController.swift; sourceTree = "<group>"; };
+		D8915C571DB69EE2001C5BD7 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		D8915C591DB6A0B5001C5BD7 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				D8915C431DB6935C001C5BD7 /* AppDelegate.swift */,
-				D8915C451DB6935C001C5BD7 /* ViewController.swift */,
 				D8915C471DB6935C001C5BD7 /* Main.storyboard */,
+				D8915C551DB69C4E001C5BD7 /* PokemonSearchViewController.swift */,
+				D8915C571DB69EE2001C5BD7 /* NetworkController.swift */,
+				D8915C591DB6A0B5001C5BD7 /* Pokemon.swift */,
 				D8915C4A1DB6935C001C5BD7 /* Assets.xcassets */,
 				D8915C4C1DB6935C001C5BD7 /* LaunchScreen.storyboard */,
 				D8915C4F1DB6935C001C5BD7 /* Info.plist */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8915C461DB6935C001C5BD7 /* ViewController.swift in Sources */,
+				D8915C561DB69C4E001C5BD7 /* PokemonSearchViewController.swift in Sources */,
+				D8915C5A1DB6A0B5001C5BD7 /* Pokemon.swift in Sources */,
 				D8915C441DB6935C001C5BD7 /* AppDelegate.swift in Sources */,
+				D8915C581DB69EE2001C5BD7 /* NetworkController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
