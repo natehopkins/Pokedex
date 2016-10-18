@@ -14,6 +14,7 @@
 		D8915C561DB69C4E001C5BD7 /* PokemonSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8915C551DB69C4E001C5BD7 /* PokemonSearchViewController.swift */; };
 		D8915C581DB69EE2001C5BD7 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8915C571DB69EE2001C5BD7 /* NetworkController.swift */; };
 		D8915C5A1DB6A0B5001C5BD7 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8915C591DB6A0B5001C5BD7 /* Pokemon.swift */; };
+		D8915C5C1DB6B056001C5BD7 /* PokemonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8915C5B1DB6B056001C5BD7 /* PokemonController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D8915C551DB69C4E001C5BD7 /* PokemonSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokemonSearchViewController.swift; path = ../PokemonSearchViewController.swift; sourceTree = "<group>"; };
 		D8915C571DB69EE2001C5BD7 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		D8915C591DB6A0B5001C5BD7 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		D8915C5B1DB6B056001C5BD7 /* PokemonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D8915C551DB69C4E001C5BD7 /* PokemonSearchViewController.swift */,
 				D8915C571DB69EE2001C5BD7 /* NetworkController.swift */,
 				D8915C591DB6A0B5001C5BD7 /* Pokemon.swift */,
+				D8915C5B1DB6B056001C5BD7 /* PokemonController.swift */,
 				D8915C4A1DB6935C001C5BD7 /* Assets.xcassets */,
 				D8915C4C1DB6935C001C5BD7 /* LaunchScreen.storyboard */,
 				D8915C4F1DB6935C001C5BD7 /* Info.plist */,
@@ -147,6 +150,7 @@
 				D8915C5A1DB6A0B5001C5BD7 /* Pokemon.swift in Sources */,
 				D8915C441DB6935C001C5BD7 /* AppDelegate.swift in Sources */,
 				D8915C581DB69EE2001C5BD7 /* NetworkController.swift in Sources */,
+				D8915C5C1DB6B056001C5BD7 /* PokemonController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

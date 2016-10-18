@@ -37,10 +37,33 @@ class PokemonSearchViewController: UIViewController, UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         
         // Gett search text from search bar
-        
         guard let searchTerm = searchBar.text else { return }
+
         
         
         // Fetch Pokemon details
+        
+        PokemonController.fetchPokemon(for: searchTerm) { (pokemon) in
+            
+            DispatchQueue.main.async {
+                
+                guard let pokemon = pokemon else { return }
+                
+                self.nameLabel.text = "\(pokemon.name)"
+                self.idLabel.text = "\(pokemon.id)"
+                self.abilitiesLabel.text = "\(pokemon.abilites.joined(separator: ", "))"
+            }
+            
+        }
     }
 }
+
+
+
+
+
+
+
+
+
+
